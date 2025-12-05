@@ -7,7 +7,11 @@ int main() {
 
 	int app_running = 1;
 
-	std::ifstream in("image.ppm", std::ios::binary); //Load the image file in binary
+	std::string filedir{};
+	std::cout << "Enter the file path: ";
+	std::getline(std::cin, filedir);
+
+	std::ifstream in(filedir, std::ios::binary); //Load the image file in binary
 	if (!in.is_open()) {
 		std::cerr << "File not found\n";
 		return 1;
