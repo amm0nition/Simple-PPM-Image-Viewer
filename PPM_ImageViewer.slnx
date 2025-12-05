@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="PPM_ImageViewer.vcxproj" />
+  <Project Path="PPM_ImageViewer.vcxproj" Id="1e79fe72-5896-4931-862b-16eebb1a40ec" />
 </Solution>
